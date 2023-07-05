@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 600px;
+    height: 450px;
+    border: solid black 2px;
+    background:linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
+}
